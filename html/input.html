@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="google.com" method="post">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" required>
+    <br>
+    <label for="possword"> possword</label>
+    <input type="password" name="password" id="password"  required minlength="5">
+    <br>
+    <label for="email">email</label>
+    <input type="email" name="email" id="email" required>
+    <br>
+    <label for="Bio">Bio</label>
+    <textarea  rows=4 cols="10" id="Bio" name="Bio"></textarea required>
+    <br>
+    <label for="Departiment">Departiment</label>
+    <select name="Departiment" id="Departiment " required>
+        <option >Marketing</option>
+        <option >office</option>
+        <option >finance</option>
+        <option >it</option>
+    </select>
+    <br>
+    <fieldset>
+        <legend>Gender</legend required>
+        <label for="Gender">male</label>
+        <input type="radio" name="Gender" value="male" >
+        <label for="Gender">Female</label>
+        <input type="radio" name="Gender" value="Female">
+    </fieldset>
+    <fieldset>
+        <legend>coding</legend required>
+        <label >html and css</label>
+        <input type="checkbox" name="html and css">
+        <label  for="java">java</label>
+        <input type="checkbox" name="java">
+        <label >javascript</label>
+        <input type="checkbox" name="javascript">
+    </fieldset>
+
+    <input type="submit" name="submit" id="submit">
+</form>
+    
+</body>
+</html>
